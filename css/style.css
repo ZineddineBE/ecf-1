@@ -19,7 +19,9 @@ header a:hover{
     text-shadow: rgb(255, 255, 255) 1px 0 5px;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 h1{
     font-family: "Kiwi Maru", serif;

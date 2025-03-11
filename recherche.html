@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <title>Recherche | Les Recettes du Z</title>
+</head>
+<body>
+
+    <header>
+        <div><a href="index.html">Les Recettes du Z</a></div>
+    </header>
+
+    <main>
+        <div class="container-fluid recherche_form">
+
+            <h1 class="text-center">Rechercher une recette</h1>
+
+
+            <form action="" method="post">
+                <div class="row">
+
+                    <div class="col-12 col-lg-6">
+                        <label for="categorie">Catégorie</label>
+                        <select class="form-select" aria-label="categorie" name="categorie">
+                            <option selected>Selectionnez une catégorie</option>
+                            <option value="1">Plat principaux</option>
+                            <option value="2">Desserts</option>
+                        </select>
+                    </div>
+                
+                    <div class="col-12 col-lg-6">
+                        <label for="recette">Recette</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Quiche lorraine" aria-label="recette" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                        <button type="submit" class="btn my-3"><a href="recherche.html"><i class="bi bi-search pe-2"></i>Rechercher une recette</a></button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="container-fluid resultat">
+            <h2 class="pt-5 text-center">Résultat(s)</h2>
+            <div class="row mt-5 ">
+                <div class="col-12 col-lg-4 my-3">
+                    <div class="card mx-auto d-flex aligns-items-center justify-content-center">
+                        <img src="img/quiche.png" class="card-img-top" alt="Photo de lasagnes">
+                        <div class="card-body">
+                          <h5 class="card-title">Quiche lorraine</h5>
+                          <p class="card-text">Une tarte salée de la cuisine lorraine et de la cuisine française, à base de pâte brisée, de migaine (œufs, crème fraîche) et de lardons.</p>
+                          <a href="recette.html" class="btn text-center">Voir la recette</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center text-lg-start">
+
+        <div class="text-center p-3">
+          © 2025 Copyright:
+          <a class="text-body" href="https://github.com/ZineddineBE">ZineddineBE</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+        

@@ -1,0 +1,143 @@
+header{
+    background-color: #E63B2E;
+    height: 65px;
+    font-family: "Klee One", cursive;
+    font-size: 40px;
+    vertical-align: text-top;
+}
+
+header div{
+    padding-left: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    text-shadow: rgb(255, 255, 255) 1px 0 5px;
+}
+
+
+
+h1{
+    font-family: "Kiwi Maru", serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: "Kiwi Maru", serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main p{
+    font-family: "Kiwi Maru", serif;
+}
+
+.hero{
+    background-color: #ff7733c7;
+    font-size: 32px;
+}
+.hero img{
+    width: 400px;
+}
+
+.categories{
+    background-color: #E15634;
+}
+
+.categories img{
+    width: 150px;
+}
+
+.categories p{
+    font-size: 24px;
+}
+
+.recherche{
+    background-color: #E1E6E1;
+}
+
+.recherche .btn{
+    background-color: #ff7733;
+    color: black
+}
+
+.recherche .btn:hover{
+    background-color: #f1631c;
+}
+
+.card .btn, .recherche_form .btn{
+    background-color: #E63B2E;
+    color: black
+}
+
+.card .btn:hover , .recherche_form .btn:hover{
+    background-color: #cb392e;
+}
+
+.recherche .btn a, .card .btn a , .recherche_form .btn a{
+    color: black
+}
+
+.recettes{
+    background-color: #F85A3E;
+}
+
+.card{
+    width: 80%;
+}
+
+.presentation{
+    background-color: #ff7733c7;
+}
+
+.presentation i{
+    color: #E15634;
+}
+
+.presentation img, .ingredients img{
+    width: 150px;
+}
+
+.ingredients{
+    background-color: #E15634;
+}
+
+.preparation{
+    background-color: #E1E6E1;
+}
+
+#table{
+    background-color: #FF7733;
+}
+
+.preparation hr {
+    border: none;
+    height: 2px;
+    color: #E15634;
+    background-color: #E15634;
+    width: 75%;
+    margin: auto;
+}
+
+.recherche_form{
+    background-color: #ff7733c7;
+}
+
+.resultat{
+    background-color: #F85A3E;
+}
+
+footer{
+    background-color: #E63B2E;
+}
+
+
+
